@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<p>Hello world! This is HTML5 Boilerplate.</p>
+<form action="http://baidu.com" method="get">
+  <p>
+    <label>
+      用户名<input type="text" name="name" placeholder="请输入用户名"/>
+  </label><br>
+    <label>
+      密码<input type="text" name="password" placeholder="请输入密码"/>
+  </label><br>
+    性别<label>
+    <input type="radio" name="gender" value="男" checked="checked"/>男
+  </label>&nbsp;
+    <label>
+      <input type="radio" name="gender" value="女"/>女
+    </label><br>
+    兴趣<label>
+    <input type="checkbox" name="hobby" value="篮球">篮球
+  </label>&nbsp;
+    <label>
+      <input type="checkbox" name="hobby" value="足球">足球
+    </label><br>
+    学历<label>
+    <select name="degree">
+    <option value="高中">高中</option>
+    <option value="大专">大专</option>
+    <option value="本科" selected="selected">本科</option>
+    <option value="研究生">研究生</option>
+  </select>
+  </label><br>
+    备注<label>
+    <textarea rows="10" cols="50" placeholder="个人介绍"></textarea>
+  </label>
+  </p>
+  <input type="submit" value="提交"/>
+  <input type="reset" value="重置">
+  <button type="submit" disabled="disabled">提交</button>
+</form>
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
